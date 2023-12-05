@@ -4,13 +4,13 @@ import { AiFillBug } from "react-icons/ai";
 
 const NavBar = () => {
   const links = [
-    { label: "Dashboard", href: "/" },
+    { label: "Dashboard", href: "/issue-tracker" },
     { label: "Issues", href: "/issues" },
   ];
 
   return (
     <nav className="flex space-x-6 border-b mb-5 px-5 h-14 items-center">
-      <Link href="/">
+      <Link href="/issue-tracker">
         <AiFillBug />
       </Link>
       <ul className="flex space-x-6">
